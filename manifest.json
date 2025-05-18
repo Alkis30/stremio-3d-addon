@@ -1,0 +1,27 @@
+{
+  "id": "org.alkis30.trakt3d.static",
+  "version": "1.0.0",
+  "name": "3D Movies (Static)",
+  "description": "Static 3D movie list from Trakt (no login required).",
+  "resources": [
+    {
+      "name": "catalog",
+      "type": "movie",
+      "id": "trakt-3d-static"
+    }
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "trakt-3d-static",
+      "name": "3D Movies (Static)",
+      "extra": []
+    }
+  ],
+  "idPrefixes": [
+    "tt"
+  ]
+}
